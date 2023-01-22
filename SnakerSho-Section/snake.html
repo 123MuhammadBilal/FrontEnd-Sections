@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="snake.css">
+</head>
+<body>
+<div class="slideshow_container">
+<div class="outer_snake">
+
+<div class="mySlides snake">
+<div class="fst_snake">
+<div class="fst_left">
+<div class="fst_blinking_text">
+<span class="fst_blinking">BUY ONE &</span>
+<br>
+<span class="fst_blinking">GET THE SECOND ITEM</span>
+<div class="fst_en">
+<span class="fst_blink_imgo"><img src="dsc25.png"></span>
+</div>
+<div class="fst_dsc">
+<img src="dsc15.png">
+</div>
+</div>	
+</div>
+
+<div class="fst_right">
+<div class="right_blink_fst">
+<span class="rit_fst_blinking">BUY 3</span>
+<br>
+<span class="rit_fst_blinking">& GET 1</span>
+<br>
+<span class="rit_fst_blinking">FREE</span>
+</div>
+<div class="fst_lft_right">
+<h1>Nike Air Force 1 WHITE</h1>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="mySlides snake">
+<div class="scnd_snake">
+<div class="scnd_snake_left">
+<div class="over">
+<span class="scnd_lft_blinking">BUY ONE &</span>
+</div>
+<div class="over">
+<span class="scnd_lft_blinking">GET THE 2ND ITEM</span>
+</div>
+<div class="or">
+<span class="scnd_lft_or_blinking">OR</span>
+</div>
+<div class="over">
+<span class="scnd_lft_blinking">BUY 3 AND GET 1 FREE</span>
+</div>
+<div class="img_scnd_left">
+<img src="dsc25.png">
+</div>
+</div>
+
+<div class="scnd_snake_right">
+<div class="warn">
+<span class="blink_warn"><img src="warn.png"></span>
+</div>
+<div class="dsc_scnd_right">
+<img src="dsc15.png">
+</div>
+<div class="jordan_right">
+<span class="jordan"> JORDAN 1 MID WITH SHADOW </span>
+</div>
+</div>	
+</div>
+</div>
+
+
+
+
+<div class="mySlides snake">
+<div class="trd_snake">
+<div class="trd_snake_left">
+<div class="trd_lft_dsc">
+<span class="lft_blink_trd"><img src="dsc15.png"></span>
+</div>
+<div class="lft_text_trd">
+<span class="lft_txt">BUY 1 &</span>
+<br>
+<span class="lft_txt">GET THE 2ND ITEM</span>
+</div>
+<div class="lfter_img_trd">
+<span class="lfter_blink_trd"><img src="dsc25.png"></span>
+</div>
+</div>
+<div class="trd_right_snake">
+<div class="trd_rit_txt">
+<span class="lft_txtx">BUY 3 & GET ONE FREE</span>	
+</div>
+<div class="trd_rit_ttx">
+<h2>JORDAN 1 LOW ARTIC PUNCH MODEL<h2>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="dots">
+  <span class="sd"></span> 
+  <span class="sd"></span> 
+  <span class="sd"></span> 
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("sd");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>

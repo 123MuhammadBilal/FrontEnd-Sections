@@ -1,0 +1,27 @@
+.container_behind{
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+.behind_pics img{
+	width: 100%;
+	float: left;
+}
+.behid_bg{
+	background-color: #020200;
+	padding: 50px 0px;
+	width: 100%;
+	float: left;
+}
+.behid_heading{
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.behid_heading h1 {
+    text-align: center;
+    font-family: 'oswaldmedium';
+    font-size: 25pt;
+    color: #fff;
+    padding-bottom: 30px;
+}

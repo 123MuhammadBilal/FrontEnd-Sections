@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="sayz_out">
+<section class="center slider">
+<div class="outer_sayz">
+<div class="heading_sayz">
+<h1>What people are saying</h1>
+<p>Accessorize By L'N'D is committed to providing simple, elegant, and unique accessories that suit our busy schedules. We feature hand-collected and hand-made women, teens, and kids fashion accessories for an easy and immediate use.</p>
+<h4>Over 319,000 5-star customer reviews</h4>
+<div class="head_img_categ">
+<img src="./images/starpeople.png">
+</div>
+</div>
+</div>
+<div class="outer_sayz">
+<div class="heading_sayz">
+<h1>What people are saying</h1>
+<p>Accessorize By L'N'D is committed to providing simple, elegant, and unique accessories that suit our busy schedules. We feature hand-collected and hand-made women, teens, and kids fashion accessories for an easy and immediate use.</p>
+<h4>Over 319,000 5-star customer reviews</h4>
+<div class="head_img_categ">
+<img src="./images/starpeople.png">
+</div>
+</div>
+</div>
+</section>
+</div>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script>
+$('.center').slick({
+                      infinite: true,
+                      slidesToShow: 1,
+                      slidesToScroll: 1,
+                      arrows: true,
+                      autoplay: true,
+                      autoplaySpeed: 1000,
+                      responsive: [
+                            {
+                              breakpoint: 600,
+                              settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                              }
+                            },
+                            {
+                              breakpoint: 1008,
+                              settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                              }
+                            },
+                            {
+                              breakpoint: 1010,
+                              settings: "unslick"
+                            }
+
+                          ]
+            });
+            </script>
+
+</body>
+</html>

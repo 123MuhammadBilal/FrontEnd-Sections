@@ -1,0 +1,60 @@
+body, h1 , h2, h3, h4, p {margin:0; padding:0;}
+
+.tpl{
+	width:100%;
+	float:left;
+}
+.btl_sec_bg{
+	background-image:url(btlbg.png);
+	background-size:cover;
+	width:100%;
+	float:left;
+}
+.btl_sec_container{
+	width: 100%;
+    margin: 0 auto;
+}
+
+.out_hed_rgt h1{
+	font-weight: bold;
+	font-size: 40px;
+margin: 20px 0px 42px;
+}
+
+.btl_sec_outer{
+	margin:55px 0px 65px; 
+	width:100%;
+	float:left;
+}
+
+.btl_sec_lft{
+	width:17%;
+	float:left;
+}
+.btl_sec_lft img{
+	width:100%;
+	float:right;
+}
+
+.btl_sec_rgt{
+	width:70%;
+	float:right;
+}
+
+.tree_hed_out {
+margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #d7e8f0;
+}
+
+
+.tree_hed_en h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: bold;
+	
+}
+.tree_hed_en p {
+	font-size:18px;
+}

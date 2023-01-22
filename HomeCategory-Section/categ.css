@@ -1,0 +1,65 @@
+html, body , h1 , h2 , h3 , h4 , a , ul , li , p {
+	margin:0;
+	padding:0;
+}
+.container_categ{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.outer_categ{
+	width: 100%;
+	float: left;
+}
+.heading_categ{
+	width: 100%;
+	float: left;
+}
+.heading_categ h1 {
+    letter-spacing: 4px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 55px 0px 40px;
+    text-align: center;
+}
+.social_categ{
+	width: 100%;
+	float: left;
+}
+.inner_categ {
+    width: 24%;
+    padding: 0px 5px 0px 8px;
+    float: left;
+}
+.inner_categ img{
+	width: 100%;
+	float: left;
+    padding-bottom: 20px;
+}
+.inner_categ h1{
+	text-align: center;
+	font-size: 12px;
+	color: #000000;
+}
+
+
+@media only screen and (max-width: 600px) {
+.inner_categ {
+    width: 100%;
+    padding-bottom: 30px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.inner_categ {
+    width: 100%;
+    padding-bottom: 30px;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+.inner_categ {
+    width: 100%;
+    padding-bottom: 30px;
+}
+}

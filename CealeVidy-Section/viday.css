@@ -1,0 +1,67 @@
+body, h1 , h2, h3, h4, p {margin:0; padding:0;}
+
+.tpl{
+	width:100%;
+	float:left;
+}
+.container_viday{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.outer_viday{
+	width: 100%;
+	float: left;
+}
+.viday_left{
+    margin-top: 260px;
+	width: 45%;
+	float: left;
+    justify-content: flex-start;
+    text-align: left;
+    box-shadow: 2px 1px 8px 4px #eaeaea;
+    padding: 30px 10px;
+    align-items: center;
+    margin-right: 10px;
+
+}
+.viday_right{
+
+	width: 45%;
+	float: right;
+}
+.viday_right img{
+	width: 100%;
+	float: right;
+}
+.viday_imog{
+	width: 20%;
+	float: left;
+    padding-right:10px;
+}
+.viday_paro{
+	width: 70%;
+	float: left;
+}
+.viday_paro h1{
+	font-size: 24px;
+}
+.viday_paro p{
+    margin-top: 20px;
+	font-size: 14px;	
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .viday_left {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.viday_right {
+    width: 95%;
+    float: right;
+}
+
+}

@@ -1,0 +1,161 @@
+html, body , h1 , h2 , h3 , h4 , a , ul , li , p {
+	margin:0;
+	padding:0;
+}
+.tpl{
+	width: 100%;
+	float: left;
+}
+.container_rancho{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+.outer_rancho{
+	margin: 30px 0px;
+}
+.heading_rancho h1{
+	text-transform: uppercase;
+	font-size: 38px;
+	color: black;
+	text-align: center;
+	margin-bottom: 40px;
+	font-weight: 200;
+}
+.left_rancho{
+	width: 62%;
+	float: left;
+}
+.left_rancho h1{
+	color: black; 
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 200;
+}
+.left_rancho p{
+	color: #7c7c7c;
+	margin-top: 20px;
+	font-weight: 100;
+	font-size: 17px;
+}
+
+.right_rancho{
+	width: 33%;
+	float: right;
+}
+.right_rancho img{
+	width: 100%;
+	float: left;
+}
+
+
+
+
+.outer_rancho_ndx{
+	margin: 30px 0px;
+}
+.heading_rancho_ndx h1{
+	text-transform: uppercase;
+	font-size: 38px;
+	color: black;
+	text-align: center;
+	margin-bottom: 40px;
+	font-weight: 200;
+}
+.left_rancho_ndx{
+	width: 62%;
+	float: right;
+}
+.left_rancho_ndx h1{
+	color: black; 
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 200;
+}
+.left_rancho_ndx p{
+	color: #7c7c7c;
+	margin-top: 20px;
+	font-weight: 100;
+	font-size: 17px;
+}
+
+.right_rancho_ndx{
+	width: 33%;
+	float: left;
+}
+.right_rancho_ndx img{
+	width: 100%;
+	float: left;
+}
+@media only screen and (max-width: 600px) {
+	.left_rancho {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+	}
+	.right_rancho {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+    padding-top: 30px;
+	}
+	.right_rancho_ndx {
+    width: 90%;
+    padding-top: 30px;
+    float: none;
+    margin: 0 auto;
+	}
+	.left_rancho_ndx {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.left_rancho {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+	}
+	.right_rancho {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+    padding-top: 30px;
+	}
+	.right_rancho_ndx {
+    width: 90%;
+    padding-top: 30px;
+    float: none;
+    margin: 0 auto;
+	}
+	.left_rancho_ndx {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.left_rancho {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+	}
+	.right_rancho {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+    padding-top: 30px;
+	}
+	.right_rancho_ndx {
+    width: 90%;
+    padding-top: 30px;
+    float: none;
+    margin: 0 auto;
+	}
+	.left_rancho_ndx {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+	}
+}

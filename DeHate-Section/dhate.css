@@ -1,0 +1,63 @@
+html, body , h1 , h2 , h3 , h4 , a , ul , li , p {
+	margin:0;
+	padding:0;
+}
+.tpl{
+	width: 100%;
+	float: left;
+}
+.container_dhat{
+	max-width: 1150px;
+	margin: 0 auto;
+}
+.outer_dhat{
+	width: 100%;
+	float: left;
+}
+.inner_dhat {
+    margin: 0px 18px 20px;
+    width: 30%;
+    border: 1px solid #ceccca7a;
+    float: left;
+}
+.inner_padding{
+    width: 85%;
+    margin: 20px auto;
+}
+.container_dhat img{
+	width: 100%;
+	margin: 0 auto;
+}
+.container_dhat h1 {
+    text-align: center;
+    font-size: 22px;
+    margin: 18px 0px;
+}
+.container_dhat p{
+	text-align: center;
+	font-size: 13px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	.inner_dhat {
+    margin: 20px auto;
+    width: 95%;
+    float: none;
+}
+}
+@media only screen and (max-width: 768px) {
+	.inner_dhat {
+    margin: 20px auto;
+    width: 95%;
+    float: none;
+}
+}
+@media only screen and (max-width: 1024px) {
+	.inner_dhat {
+    margin: 20px auto;
+    width: 95%;
+    float: none;
+}
+}

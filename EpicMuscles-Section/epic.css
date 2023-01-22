@@ -1,0 +1,28 @@
+html , body , h1 , p {
+    margin: 0;
+    padding: 0;
+}
+.container_epic{
+    max-width: 850px;
+    margin: 0 auto;
+}
+.epic_desing img{
+       width: 100%;
+       float: left;
+}
+.epic_desing h1{
+    padding-bottom: 10px;
+       font-family: 'oswaldmedium';
+       margin: 0;
+       font-size: 29pt;
+}
+.epic_desing p{
+   font-family: 'roboto_condensedlight';
+   margin: 0;
+   font-size: 10pt;
+}
+.out_epic{
+    margin: 30px 0px;
+    width: 100%
+    float: left;
+}

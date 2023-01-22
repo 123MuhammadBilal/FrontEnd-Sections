@@ -1,0 +1,265 @@
+html, body , h1 , h2 , h3 , h4 , a , p {
+    margin: 0; 
+    padding: 0;
+}
+.tpl{
+    width: 100%;
+    float: left;
+}
+
+@import "compass/css3";
+
+*{margin:0;padding:0;}
+#overlay {
+    width: 46%;
+    margin: 0 auto;
+    background: white;
+    color: black;
+    padding: 10px;
+    position: absolute;
+    top: 85%;
+    left: 25%;
+    z-index: 1000;
+    display: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 25px;
+}
+
+#mask{ /* create are mask */
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.6);
+    z-index:500;
+    width:100%;
+    height:100%;
+    display:none;
+}
+/* use :target to look for a link to the overlay then we find our mask */
+#overlay:target, #overlay:target + #mask{
+    display:block;
+    opacity:1;
+}
+.close {
+    display: block;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 40px;
+    font-size: 35px;
+    text-decoration: none;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -o-border-radius: 40px;
+    border-radius: 40px;
+}
+.pophead h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 37px;
+}
+.pophead p{
+    background: #FFFFFF;
+    font-size: 18px;
+    max-width: 688px;
+    padding: 30px 47px 40px 40px;
+    margin: 0 auto;
+    position: relative;
+}
+.read_out{
+    width:100%;
+    float: left;
+}
+
+.out_clicker h2{
+    font-family: "Canela-thin";
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.container_click{
+    width: 1170px;
+    margin: 0 auto;
+}
+.towtab {
+    width: 19%;
+    float: left;
+    margin-left: 50px;
+}
+.para_step {
+    width: 65%;
+    margin: 0 auto;
+}
+.xera{
+    width: 50%;
+    margin: 0 auto;
+}
+.xera img{
+    width: 100%;
+    float: left;
+}
+.towtab h1:hover {
+    color: black;
+}
+.towtab h1{
+    font-size: 16px;
+    text-align: center;
+    list-style: none;
+    color: #999999;
+    text-decoration: none;
+}
+.nav-tabs>li{
+    float: none;
+}
+.nav-tabs>li>a {
+    margin-right: 18px;
+}
+.nav-tabs>li>a:hover {
+    background-color: transparent;
+    border-bottom: 2px solid #000;
+}
+.nav-tabs>li>a {
+    border: 1px solid transparent;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 0px solid #ddd;
+    border-bottom-color: transparent;
+}
+.hedtab{
+    width: 100%;
+    float: left;
+}
+..nav-tabs>li {
+        float: revert;
+    margin-bottom: -1px;
+}
+
+.div_out{
+    width: 100%;
+    float: left;
+}
+.div_out_left{
+    width: 49%;
+    float: left;
+}
+.div_out_left img{
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+}
+.div_out_right{
+    width: 47%;
+    float: right;
+}
+.nav {
+    margin-bottom: 45px;
+}
+.ticker {
+    margin-top:5px;
+    width: 3%;
+    float: left;
+}
+.ticker img{
+    width: 100%;
+    float: left;
+    padding-bottom: 28px;
+}
+.div_out_right p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 18px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #000000;
+    max-width: 652px;
+}
+.div_out_right ul li {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    list-style-type: none;
+    letter-spacing: 0.3px;
+    color: #000000;
+    padding-bottom: 17px;
+    padding-left: 40px;
+    position: relative;
+    max-width: 440px;
+}
+.ticker_front img{
+    margin-right: 20px;
+    margin-left: -35px;
+}
+.div_out_left h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    letter-spacing: 0.3px;
+    color: #000000;
+    opacity: 0.6;
+    padding-right: 10px;
+}
+.claims_out {
+    width: 100%;
+    float: left;
+    margin: 70px 0px 30px 0px;
+}
+.claims_in{
+    width: 35%;
+    margin: 0 auto;
+}
+.claims_in a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    border-radius: 100px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+}
+
+@media screen and (max-width: 600px) {
+    .div_out_left {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+    }
+    .div_out_right {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+    }
+}

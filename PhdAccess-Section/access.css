@@ -1,0 +1,152 @@
+html, body , h1 , h2 , h3 , h4 , a , ul , li , p {
+	margin:0;
+	padding:0;
+}
+.bg_access{
+	float: left;
+	width: 100%;
+	background-color:#f6f6f6 ;
+}
+.container_access{
+	max-width: 1040px;
+	margin: 0 auto;
+}
+.outer_access{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+}
+.left_access{
+	width: 48%;
+	float: left;
+    padding-top: 15px;
+}
+.left_access h1{
+	font-size: 24px;
+}
+
+.right_access{
+	width: 45%;
+	float: right;
+}
+.form_access{
+	width: 100%;
+	float: left;
+}
+.form_access a {
+    padding: 9px 10px 15px 10px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+}
+.form_access input {
+    font-size: 12px;
+    color: #919191;
+    height: 41px;
+    width: 65%;
+}
+.input_para {
+    width: 88%;
+    float: left;
+}
+.input_para p {
+    font-size: 11px;
+    padding-top: 6px;
+    color: #000000;
+}
+.input_para a {
+    font-size: 11px;
+    color: #000000;
+}
+.input_para a {
+    padding: 0px;
+    font-size: 11px;
+    color: #000000;
+    background: none;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+.left_access {
+    width: 90%;
+    float: none;
+    padding-top: 15px;
+    text-align: center;
+    margin: 0 auto;
+}
+.right_access {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.form_access input {
+    width: 55%;
+}
+.form_access a {
+    padding: 9px 8px 15px 8px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.left_access {
+    width: 90%;
+    float: none;
+    padding-top: 15px;
+    text-align: center;
+    margin: 0 auto;
+}
+.right_access {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.form_access input {
+    width: 55%;
+}
+.form_access a {
+    padding: 9px 8px 15px 8px;
+}
+.input_para {
+    width: 100%;
+    padding-top: 25px;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+.left_access {
+    width: 90%;
+    float: none;
+    padding-top: 15px;
+    text-align: center;
+    margin: 0 auto;
+}
+.right_access {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.form_access input {
+    width: 55%;
+}
+.form_access a {
+    padding: 9px 8px 15px 8px;
+}
+.input_para {
+    width: 100%;
+    padding-top: 25px;
+}
+}
